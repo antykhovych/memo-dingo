@@ -3,8 +3,8 @@ body {
 }
 
 .card {
-    min-width: 200px;
-    min-height: 200px;
+    width: 200px;
+    height: 200px;
     /*border: 1px solid gray;*/
     /*margin: 8px 8px 0 0;*/
     clip-path: polygon(100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%, 25% 6.7%, 75% 6.7%);
