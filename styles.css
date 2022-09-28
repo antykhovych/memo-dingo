@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    min-width: 500px;
+    min-height: 500px;
+    /*border: 1px solid gray;*/
+    /*margin: 8px 8px 0 0;*/
+    clip-path: polygon(100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%, 25% 6.7%, 75% 6.7%);
+    cursor: pointer;
+    background-size: cover;
+    transition: all 0.1s;
+}
+
+.card:focus {
+    transform: rotate(360deg);
+    /*transform: scale(1.1);*/
+}
+
+/*https://www.queness.com/post/13901/create-beautiful-hexagon-shapes-with-pure-css3*/
+/*как сделать красивую раскладку гексов*/
+
+#board {
+    min-width: 620px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#controlPanel {
+    display: flex;
+    font-size: 20px;
+}
+
+#scoreOutput {
+    margin-left: 20px;
+    font-weight: bold;
+}
